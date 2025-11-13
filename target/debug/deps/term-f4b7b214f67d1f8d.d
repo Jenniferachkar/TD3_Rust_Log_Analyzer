@@ -1,0 +1,11 @@
+C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\deps\term-f4b7b214f67d1f8d.d: C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\lib.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\mod.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\searcher.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\parser\compiled.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\parser\names.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\parm.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\win.rs
+
+C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\deps\libterm-f4b7b214f67d1f8d.rmeta: C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\lib.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\mod.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\searcher.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\parser\compiled.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\parser\names.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\parm.rs C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\win.rs
+
+C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\lib.rs:
+C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\mod.rs:
+C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\searcher.rs:
+C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\parser\compiled.rs:
+C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\parser\names.rs:
+C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\terminfo\parm.rs:
+C:\Users\jenni\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\term-0.7.0\src\win.rs:

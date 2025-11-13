@@ -1,0 +1,6 @@
+2024-01-15 10:30:45 [INFO] Application started
+2024-01-15 10:30:46 [DEBUG] Loading configuration
+2024-01-31 10:31:02 [WARNING] High memory usage
+2024-01-31 10:31:15 [ERROR] Failed to connect to API
+2024-01-31 10:32:00 [ERROR] Database query failed
+2024-01-31 10:33:00 [INFO] Processing completed

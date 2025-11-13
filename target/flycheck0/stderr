@@ -1,0 +1,501 @@
+   0.284655100s  INFO prepare_target{force=false package_id=td3_log_analyzer v0.1.0 (C:\Users\jenni\TD3_Rust_Log_Analyzer) target="td3_log_analyzer"}: cargo::core::compiler::fingerprint: fingerprint error for td3_log_analyzer v0.1.0 (C:\Users\jenni\TD3_Rust_Log_Analyzer)/Check { test: false }/TargetInner { name: "td3_log_analyzer", doc: true, ..: with_path("C:\\Users\\jenni\\TD3_Rust_Log_Analyzer\\src\\main.rs", Edition2021) }
+   0.284777600s  INFO prepare_target{force=false package_id=td3_log_analyzer v0.1.0 (C:\Users\jenni\TD3_Rust_Log_Analyzer) target="td3_log_analyzer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\td3_log_analyzer-109b5c42bd81bf6e\bin-td3_log_analyzer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  18: main
+  19: __tmainCRTStartup
+  20: mainCRTStartup
+  21: <unknown>
+  22: <unknown>
+   0.315081500s  INFO prepare_target{force=false package_id=clap v4.5.51 target="clap"}: cargo::core::compiler::fingerprint: fingerprint error for clap v4.5.51/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap-4.5.51\\src\\lib.rs", Edition2021) }
+   0.315190500s  INFO prepare_target{force=false package_id=clap v4.5.51 target="clap"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\clap-381430f01d4f4851\lib-clap`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  19: main
+  20: __tmainCRTStartup
+  21: mainCRTStartup
+  22: <unknown>
+  23: <unknown>
+   0.316454400s  INFO prepare_target{force=false package_id=clap_builder v4.5.51 target="clap_builder"}: cargo::core::compiler::fingerprint: fingerprint error for clap_builder v4.5.51/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_builder", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_builder-4.5.51\\src\\lib.rs", Edition2021) }
+   0.316519800s  INFO prepare_target{force=false package_id=clap_builder v4.5.51 target="clap_builder"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\clap_builder-8ab2fd1ff2d06261\lib-clap_builder`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  20: main
+  21: __tmainCRTStartup
+  22: mainCRTStartup
+  23: <unknown>
+  24: <unknown>
+   0.330985000s  INFO prepare_target{force=false package_id=prettytable v0.10.0 target="prettytable"}: cargo::core::compiler::fingerprint: fingerprint error for prettytable v0.10.0/Check { test: false }/TargetInner { ..: lib_target("prettytable", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prettytable-0.10.0\\src\\lib.rs", Edition2018) }
+   0.331076700s  INFO prepare_target{force=false package_id=prettytable v0.10.0 target="prettytable"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\prettytable-c3b658591cc0a214\lib-prettytable`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  19: main
+  20: __tmainCRTStartup
+  21: mainCRTStartup
+  22: <unknown>
+  23: <unknown>
+   0.332154400s  INFO prepare_target{force=false package_id=csv v1.4.0 target="csv"}: cargo::core::compiler::fingerprint: fingerprint error for csv v1.4.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("csv", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\csv-1.4.0\\src\\lib.rs", Edition2021) }
+   0.332202800s  INFO prepare_target{force=false package_id=csv v1.4.0 target="csv"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\csv-66ee9ab2525a8790\lib-csv`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  20: main
+  21: __tmainCRTStartup
+  22: mainCRTStartup
+  23: <unknown>
+  24: <unknown>
+   0.338098900s  INFO prepare_target{force=false package_id=term v0.7.0 target="term"}: cargo::core::compiler::fingerprint: fingerprint error for term v0.7.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("term", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\term-0.7.0\\src\\lib.rs", Edition2018) }
+   0.338159700s  INFO prepare_target{force=false package_id=term v0.7.0 target="term"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\term-f4b7b214f67d1f8d\lib-term`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  20: main
+  21: __tmainCRTStartup
+  22: mainCRTStartup
+  23: <unknown>
+  24: <unknown>
+   0.339045100s  INFO prepare_target{force=false package_id=dirs-next v2.0.0 target="dirs_next"}: cargo::core::compiler::fingerprint: fingerprint error for dirs-next v2.0.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("dirs_next", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\dirs-next-2.0.0\\src\\lib.rs", Edition2018) }
+   0.339092600s  INFO prepare_target{force=false package_id=dirs-next v2.0.0 target="dirs_next"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\dirs-next-f8422e5157f10afb\lib-dirs_next`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  21: main
+  22: __tmainCRTStartup
+  23: mainCRTStartup
+  24: <unknown>
+  25: <unknown>
+   0.340331800s  INFO prepare_target{force=false package_id=dirs-sys-next v0.1.2 target="dirs_sys_next"}: cargo::core::compiler::fingerprint: fingerprint error for dirs-sys-next v0.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("dirs_sys_next", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\dirs-sys-next-0.1.2\\src\\lib.rs", Edition2018) }
+   0.340389100s  INFO prepare_target{force=false package_id=dirs-sys-next v0.1.2 target="dirs_sys_next"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\dirs-sys-next-e855b94a352a762f\lib-dirs_sys_next`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  22: main
+  23: __tmainCRTStartup
+  24: mainCRTStartup
+  25: <unknown>
+  26: <unknown>
+   0.341339100s  INFO prepare_target{force=false package_id=winapi v0.3.9 target="winapi"}: cargo::core::compiler::fingerprint: fingerprint error for winapi v0.3.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("winapi", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\winapi-0.3.9\\src\\lib.rs", Edition2015) }
+   0.341391800s  INFO prepare_target{force=false package_id=winapi v0.3.9 target="winapi"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\winapi-22dbc1b7c6b2b8db\lib-winapi`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::cli::main
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  23: main
+  24: __tmainCRTStartup
+  25: mainCRTStartup
+  26: <unknown>
+  27: <unknown>
+   0.348797600s  INFO prepare_target{force=false package_id=regex v1.12.2 target="regex"}: cargo::core::compiler::fingerprint: fingerprint error for regex v1.12.2/Check { test: false }/TargetInner { ..: lib_target("regex", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-1.12.2\\src\\lib.rs", Edition2021) }
+   0.348864100s  INFO prepare_target{force=false package_id=regex v1.12.2 target="regex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\regex-214055ab2821e69d\lib-regex`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  19: main
+  20: __tmainCRTStartup
+  21: mainCRTStartup
+  22: <unknown>
+  23: <unknown>
+   0.350070200s  INFO prepare_target{force=false package_id=regex-automata v0.4.13 target="regex_automata"}: cargo::core::compiler::fingerprint: fingerprint error for regex-automata v0.4.13/Check { test: false }/TargetInner { benched: false, ..: lib_target("regex_automata", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-automata-0.4.13\\src\\lib.rs", Edition2021) }
+   0.350121900s  INFO prepare_target{force=false package_id=regex-automata v0.4.13 target="regex_automata"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\regex-automata-bc9d961105777733\lib-regex_automata`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  20: main
+  21: __tmainCRTStartup
+  22: mainCRTStartup
+  23: <unknown>
+  24: <unknown>
+   0.351317200s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   0.351365500s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\serde-c7692b82dc18f078\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  19: main
+  20: __tmainCRTStartup
+  21: mainCRTStartup
+  22: <unknown>
+  23: <unknown>
+   0.355521400s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.145/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\jenni\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.145\\src\\lib.rs", Edition2021) }
+   0.355599600s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\serde_json-cad320ecd7877377\lib-serde_json`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  19: main
+  20: __tmainCRTStartup
+  21: mainCRTStartup
+  22: <unknown>
+  23: <unknown>
+   0.358636400s  INFO prepare_target{force=false package_id=td3_log_analyzer v0.1.0 (C:\Users\jenni\TD3_Rust_Log_Analyzer) target="td3_log_analyzer"}: cargo::core::compiler::fingerprint: fingerprint error for td3_log_analyzer v0.1.0 (C:\Users\jenni\TD3_Rust_Log_Analyzer)/Check { test: true }/TargetInner { name: "td3_log_analyzer", doc: true, ..: with_path("C:\\Users\\jenni\\TD3_Rust_Log_Analyzer\\src\\main.rs", Edition2021) }
+   0.358688400s  INFO prepare_target{force=false package_id=td3_log_analyzer v0.1.0 (C:\Users\jenni\TD3_Rust_Log_Analyzer) target="td3_log_analyzer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\jenni\TD3_Rust_Log_Analyzer\target\debug\.fingerprint\td3_log_analyzer-321c5d188b5c11bc\test-bin-td3_log_analyzer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src\..\..\backtrace\src\backtrace/win64.rs:85:14
+   1: std::backtrace::Backtrace::capture
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\std\src/backtrace.rs:296:9
+   2: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+             at /rustc/ed61e7d7e242494fb7057f2657300d9e77bb4fcb/library\core\src\ops/function.rs:287:21
+  18: main
+  19: __tmainCRTStartup
+  20: mainCRTStartup
+  21: <unknown>
+  22: <unknown>
+    Checking winapi v0.3.9
+    Checking regex-automata v0.4.13
+    Checking csv v1.4.0
+    Checking serde_json v1.0.145
+    Checking clap_builder v4.5.51
+    Checking serde v1.0.228
+    Checking clap v4.5.51
+    Checking regex v1.12.2
+    Checking dirs-sys-next v0.1.2
+    Checking dirs-next v2.0.0
+    Checking term v0.7.0
+    Checking prettytable v0.10.0
+    Checking td3_log_analyzer v0.1.0 (C:\Users\jenni\TD3_Rust_Log_Analyzer)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 10.13s
