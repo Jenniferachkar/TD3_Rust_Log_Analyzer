@@ -41,10 +41,6 @@ Le parseur utilise l'expression régulière `^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{
 
 Pas encore de benchmarks intégrés ou publiés. Un scénario simple peut être mesuré avec `hyperfine "cargo run -- sample.log"`. Ajouter des échantillons volumineux (1M+ lignes) et mesurer la consommation mémoire serait une bonne prochaine étape.
 
-## Aperçu (capture)
-
-![Sortie en mode texte](docs/screenshot-output.png)
-
 ## Exécution
 
 ```bash
